@@ -62,7 +62,7 @@ function WebsiteSafetyChecker() {
     const mainDomain = domainParts.pop();
     const firstTwoLetters = mainDomain.slice(0, 2).toLowerCase();
     const lengthCategory = hostname.length;
-    return `https://raw.githubusercontent.iakashshetty/com/Anti-phishing-extension/main/filter/${domainType}/${firstTwoLetters}/${lengthCategory}.json`;
+    return `https://raw.githubusercontent.com/iakashshetty/Anti-phishing-extension/main/filter/${domainType}/${firstTwoLetters}/${lengthCategory}.json`;
   };
 
   const checkWebsiteSafety = async (inputUrl) => {
