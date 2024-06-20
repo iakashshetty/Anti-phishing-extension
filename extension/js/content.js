@@ -41,7 +41,7 @@ async function fetchData() {
         const lengthCategory = hostname.length;
 
         // Construct the URL to fetch the data from
-        const url = `https://raw.githubusercontent.com/codeesura/Anti-phishing-extension/main/filter/${domainType}/${firstTwoLetters}/${lengthCategory}.json`;
+        const url = `https://raw.githubusercontent.com/iakashshetty/Anti-phishing-extension/main/filter/${domainType}/${firstTwoLetters}/${lengthCategory}.json`;
 
         // Fetch the data from the URL
         const data = await fetch(url).then(res => {
